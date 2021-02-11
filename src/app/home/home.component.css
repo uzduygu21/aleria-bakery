@@ -1,0 +1,62 @@
+.img-size {
+    background-color:#fdfdf9;
+    /* background: url(/assets/logos/bg-img-white.jpg) center top no-repeat; */
+    padding: 19px 17px 16px 18px;
+    display: block;
+    margin: 0 auto;
+    max-height: 335px;
+}
+
+.mrg-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#map-size {
+    width: 1075px !important;
+    height: 335px;
+}
+
+@media (max-width: 400px) {  
+    #map-size {
+        width: 240px !important;
+    }
+    .img-size {
+        width: 200px;
+        height: 200px;
+        padding: 0px !important;
+    }
+ }
+
+ @media (min-width: 401px) and (max-width: 500px) {
+    #map-size {
+        width: 300px !important;
+    }
+ }
+
+@media (min-width: 501px) and (max-width: 767.98px) {
+    #map-size {
+        width: 450px !important;
+    }
+}
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    #map-size {
+        width: 680px !important;
+    }
+
+  }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    #map-size {
+        width: 950px !important;
+    }
+ } 
+
+ .zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

@@ -1,0 +1,46 @@
+
+/* #intro-example {
+    min-width: 375px;
+    min-height: 812px;
+  }
+@media (min-width: 768px) {
+    #intro-example {
+        min-width: 1024px;
+        min-height: 1366px;
+    }
+} */
+
+.bg {
+    background: url(/assets/logos/bg-2000.jpg ) center top repeat-y fixed;
+}
+
+@media only screen and (max-width: 767px){
+    .bg {
+        background: url(/assets/logos/bg-1000.jpg) center top repeat-y;
+
+    }
+} 
+
+
+body, html {
+    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  /* .bg { 
+    background-image: url("/assets/logos/bg-2000.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 767px) {
+    .bg { 
+        background-image: url("/assets/logos/bg-1000.jpg");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+  } */

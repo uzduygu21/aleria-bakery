@@ -1,0 +1,18 @@
+.pdg-nav {
+    padding-left: 5%;
+}
+
+@media (min-width: 450px) {
+    .pdg-items {
+        margin-right: 2rem;
+    }
+}
+
+.nav-text {
+    color: #d4af37 !important;
+    font-family: "BentonSans Bold";
+}
+
+.nav-txt-line {
+    font-size: 20px;
+}

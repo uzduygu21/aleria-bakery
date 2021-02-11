@@ -1,0 +1,13 @@
+.panel {
+    margin: 5% 20%;
+    background-color: #fdfdf9;
+}
+
+.panel-body {
+    padding: 10%;
+}
+
+.align-btn {
+    /* margin-left: 50%; */
+    float: right;
+}
