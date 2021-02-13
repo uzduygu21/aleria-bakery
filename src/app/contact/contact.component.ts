@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit {
     formData.append("phone", this.contactForm.get("phone").value);
     formData.append("subject", this.contactForm.get("subject").value);
     formData.append("message", this.contactForm.get("message").value);
-    this.http.post("https://script.google.com/macros/s/AKfycbyuxLMEC1IcBYmolLzpLJVB1KByoGGfF1yfsbDlM-2UUf1cAGKMNX_SDg/exec", formData).subscribe(
+    this.http.post("https://script.google.com/macros/s/AKfycbxz9eooLLE5pZpS2nlXkxZsL1zMFLYfLkHe3QHQOBSucm-R5GfhGSpH/exec", formData).subscribe(
       (response) => {
         if (response["result"] == "success") {
           this.responseMessage = "Thanks for the message! I'll get back to you soon!";
