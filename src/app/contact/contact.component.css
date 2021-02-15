@@ -8,6 +8,6 @@
 }
 
 .align-btn {
-    /* margin-left: 50%; */
-    float: right;
+    display:flex; 
+    justify-content:flex-end;
 }
