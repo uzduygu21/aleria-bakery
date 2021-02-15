@@ -1,24 +1,24 @@
 
-/* #intro-example {
-    min-width: 375px;
-    min-height: 812px;
-  }
-@media (min-width: 768px) {
-    #intro-example {
-        min-width: 1024px;
-        min-height: 1366px;
-    }
-} */
-
-.bg {
-    background: url(/assets/logos/bg-2000.jpg ) center top repeat-y fixed;
+/* .bg {
+    background: url(../assets/logos/bg-2000.jpg ) center top repeat-y fixed;
 }
 
 @media only screen and (max-width: 767px){
     .bg {
-        background: url(/assets/logos/bg-1000.jpg) center top repeat-y;
+        background: url(../assets/logos/bg-1000.jpg) center top repeat-y;
 
     }
+}  */
+
+.bg {
+  background: url(../assets/logos/bg-2000.jpg ) center top repeat-y fixed;
+}
+
+@media only screen and (max-width: 767px){
+  .bg {
+      background: url(../assets/logos/bg-1000.jpg) center top repeat-y;
+
+  }
 } 
 
 
