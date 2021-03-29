@@ -11,6 +11,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     TopbarComponent,
     FooterComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

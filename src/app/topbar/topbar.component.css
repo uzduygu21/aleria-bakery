@@ -28,5 +28,21 @@ a {
 }
 
 .circle-link {
-    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    border-radius: 30%;  
+    padding-bottom: 3px;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.fb {
+    background-color: white;
+    border-radius: 50%;
 }
