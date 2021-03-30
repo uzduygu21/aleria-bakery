@@ -2,9 +2,15 @@
     padding-left: 5%;
 }
 
-@media (min-width: 450px) {
+/* @media (min-width: 450px) { */
     .pdg-items {
         margin-right: 2rem;
+    }
+/* } */
+
+@media (max-width: 450px) {
+    .pdg-items {
+        font-size: 25px !important;
     }
 }
 
